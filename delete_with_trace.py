@@ -114,13 +114,16 @@ def find_next_best(data_set, index):
 
     if next_best_index == index:
         reduced_set[index]['next_state'] = index
-        return reduced_set, next_best
     else:
         if reduced_set[next_best_index]['next_state'] == -1:
             reduced_set, next_best = find_next_best(reduced_set, next_best_index)
             reduced_set[next_best_index]['next_state'] = next_best['index']
-        reduced_set[index]['next_state'] = reduced_set[next_best_index]['next_state']
-        return reduced_set, next_best
+            reduced_set[index]['next_state'] = next_best['index']
+        else:
+            temp = reduced_set[next_best_index]['next_state']
+            reduced_set[index]['next_state'] = temp
+            next_best = reduced_set[temp]
+    return reduced_set, next_best
 
 
 def main(argv):
