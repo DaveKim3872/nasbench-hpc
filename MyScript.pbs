@@ -1,0 +1,88 @@
+for current item 4567: 
+{'module_adjacency': array([[0, 1, 0, 1, 0, 0, 0],
+       [0, 0, 1, 0, 0, 1, 0],
+       [0, 0, 0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 0, 1, 1],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'maxpool3x3', 'maxpool3x3', 'maxpool3x3', 'maxpool3x3', 'maxpool3x3', 'output'], 'final_test_accuracy': 0.8503939708073934, 'index': 4567, 'next_state': -1}
+22641
+728
+the next best item 19939: 
+{'module_adjacency': array([[0, 1, 0, 1, 0, 0, 1],
+       [0, 0, 1, 0, 0, 1, 0],
+       [0, 0, 0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv3x3-bn-relu', 'maxpool3x3', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'output'], 'final_test_accuracy': 0.9376669327418009, 'index': 19939, 'next_state': 19939}
+current dataset length is: 423624
+Finished 4507 calculation(s).
+Processing item 4568
+for current item 4568: 
+{'module_adjacency': array([[0, 1, 0, 0, 0, 0, 0],
+       [0, 0, 1, 0, 1, 0, 0],
+       [0, 0, 0, 1, 1, 0, 0],
+       [0, 0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 0, 1, 1],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv3x3-bn-relu', 'maxpool3x3', 'conv3x3-bn-relu', 'conv1x1-bn-relu', 'conv3x3-bn-relu', 'output'], 'final_test_accuracy': 0.9013087550799052, 'index': 4568, 'next_state': -1}
+363998
+340435
+143893
+325954
+340494
+the next best item 340494: 
+{'module_adjacency': array([[0, 1, 0, 0, 0, 1, 1],
+       [0, 0, 1, 0, 1, 0, 0],
+       [0, 0, 0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv3x3-bn-relu', 'maxpool3x3', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'output'], 'final_test_accuracy': 0.9397369225819906, 'index': 340494, 'next_state': 340494}
+current dataset length is: 423624
+Finished 4508 calculation(s).
+Processing item 4569
+for current item 4569: 
+{'module_adjacency': array([[0, 1, 1, 0, 0, 0, 0],
+       [0, 0, 1, 0, 0, 0, 1],
+       [0, 0, 0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 1, 1, 0],
+       [0, 0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv1x1-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'output'], 'final_test_accuracy': 0.92578125, 'index': 4569, 'next_state': -1}
+56590
+22611
+the next best item 22611: 
+{'module_adjacency': array([[0, 1, 1, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 1, 1, 0],
+       [0, 0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv1x1-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'output'], 'final_test_accuracy': 0.9369324445724487, 'index': 22611, 'next_state': 22611}
+current dataset length is: 423624
+Finished 4509 calculation(s).
+Processing item 4570
+for current item 4570: 
+{'module_adjacency': array([[0, 1, 0, 1, 0, 0],
+       [0, 0, 1, 0, 1, 0],
+       [0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv1x1-bn-relu', 'conv3x3-bn-relu', 'maxpool3x3', 'conv1x1-bn-relu', 'output'], 'final_test_accuracy': 0.9069845080375671, 'index': 4570, 'next_state': -1}
+{"module_adjacency": [[0, 1, 0, 1, 0, 0], [0, 0, 1, 0, 1, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0]], "module_operations": ["input", "conv1x1-bn-relu", "conv3x3-bn-relu", "maxpool3x3", "conv1x1-bn-relu", "output"], "final_test_accuracy": 0.9069845080375671, "index": 4570, "next_state": 387630}
+59640
+{"module_adjacency": [[0, 1, 0, 1, 0, 1], [0, 0, 1, 0, 1, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0]], "module_operations": ["input", "conv1x1-bn-relu", "conv3x3-bn-relu", "maxpool3x3", "conv1x1-bn-relu", "output"], "final_test_accuracy": 0.9307558735211691, "index": 59640, "next_state": 387630}
+28338
+{"module_adjacency": [[0, 1, 0, 1, 0, 1], [0, 0, 1, 0, 1, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0]], "module_operations": ["input", "conv3x3-bn-relu", "conv3x3-bn-relu", "maxpool3x3", "conv1x1-bn-relu", "output"], "final_test_accuracy": 0.9368322491645813, "index": 28338, "next_state": 387630}
+{"module_adjacency": [[0, 1, 0, 1, 1, 1], [0, 0, 1, 0, 1, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0]], "module_operations": ["input", "conv3x3-bn-relu", "conv3x3-bn-relu", "conv1x1-bn-relu", "conv1x1-bn-relu", "output"], "final_test_accuracy": 0.9411391615867615, "index": 387630, "next_state": 387630}
+the next best item 387630: 
+{'module_adjacency': array([[0, 1, 0, 1, 1, 1],
+       [0, 0, 1, 0, 1, 0],
+       [0, 0, 0, 1, 0, 0],
+       [0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0]], dtype=int8), 'module_operations': ['input', 'conv3x3-bn-relu', 'conv3x3-bn-relu', 'conv1x1-bn-relu', 'conv1x1-bn-relu', 'output'], 'final_test_accuracy': 0.9411391615867615, 'index': 387630, 'next_state': 387630}
+current dataset length is: 423624
+Finished 4510 calculation(s).
