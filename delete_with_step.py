@@ -151,7 +151,7 @@ def main(argv):
             print("No Match!")
             cnt += 1
             print("Finished " + str(cnt) + " calculation(s).")
-        if cnt % 1000 == 0 or cnt == 100:
+        if cnt % 1000 == 0:
             dest_file = dest + "_cnt" + str(cnt) + ".json"
             trace_file = trace_only + "_cnt" + str(cnt) + ".json"
             output_file = open(dest_file, 'w+', encoding='utf-8')
@@ -164,6 +164,20 @@ def main(argv):
                     trace_out.write("\n")
             output_file.close()
             trace_out.close()
+
+    dest_file = "final_full_data.json"
+    trace_file = "final_with_trace.json"
+    output_file = open(dest_file, 'w+', encoding='utf-8')
+    trace_out = open(trace_file, 'w+', encoding='utf-8')
+    for dic in reduced_set:
+        json.dump(dic, output_file, cls=MyEncoder)
+        output_file.write("\n")
+        if dic['next_state'] != -1:
+            json.dump(dic, trace_out, cls=MyEncoder)
+            trace_out.write("\n")
+    output_file.close()
+    trace_out.close()
+    print("Thanks god all done...")
 
 
 # If you are passing command line flags to modify the default config values, you
