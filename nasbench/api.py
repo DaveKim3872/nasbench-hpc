@@ -406,6 +406,7 @@ class NASBench(object):
             # Graph state in fixed_statistics
             Mapping['module_adjacency'] = self.fixed_statistics[key]['module_adjacency']
             Mapping['module_operations'] = self.fixed_statistics[key]['module_operations']
+            Mapping['hash_key'] = key
             # Accuracy samples in computed_statistics
             samples = self.computed_statistics[key][epochs]
             test_accuracy = 0.0
